@@ -1,7 +1,7 @@
 //Portia Ocran
 //991545021
 
-//This class creates an observable array list that will hold courses
+//This class creates an observable array list that will hold courses that are stored in the HotSchoolDatabase
 
 package HotSchool;
 import javafx.collections.FXCollections;
@@ -11,11 +11,9 @@ public class CourseList {
 	
 	private ObservableList<Course> courseList;
 	
-	
 	CourseList(){
-		
-		this.courseList = FXCollections.observableArrayList();
-		
+		//Once a "CourseList" object is instantiated, the array list will also be instantiated
+		this.courseList = FXCollections.observableArrayList();	
 	}
 	
 	public void add(Course course) {
