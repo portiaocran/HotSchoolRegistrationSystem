@@ -72,8 +72,8 @@ public class HotSchool extends Application {
 		
 		//Required elements to sign into database
 		String connURL= "jdbc:mysql://localhost:3306/hotsummer";
-		String user= "root";
-		String pass= "Aitrop31";
+		String user= "yourPassword";
+		String pass= "yourUsername";
 		
 		//Calling methods to connect to database, read items from database into respective arrays
 		connectToDB(connURL, user, pass);
